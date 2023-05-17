@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * declaration for all functions prototypes and header files
+ * Declaration for all functions prototypes and header files
  * 
  * Author: Destiny Saturday (DestinedCodes)
  * Date:  17-05-2023
