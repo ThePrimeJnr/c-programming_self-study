@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * main - check the code
  *
  * Return: Always 0.
  *
@@ -13,16 +13,17 @@ int main(void)
 {
 	int r;
 
-	r = _islower('H');
-	putchar(r + '0');
+	r = _abs(-1);
+	printf("%d\n", r);
 
-	r = _islower('o');
-	putchar(r + '0');
+	r = _abs(0);
+	printf("%d\n", r);
 
-	r = _islower(108);
-	putchar(r + '0');
+	r = _abs(1);
+	printf("%d\n", r);
 
-	putchar('\n');
+	r = _abs(-98);
+	printf("%d\n", r);
 
 	return (0);
 }
