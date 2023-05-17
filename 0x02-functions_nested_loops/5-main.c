@@ -36,6 +36,6 @@ int main(void)
 	putchar(' ');
 	putchar(r + '0');
 	putchar('\n');
-	
+
 	return (0);
 }

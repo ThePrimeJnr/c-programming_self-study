@@ -3,9 +3,9 @@
 /**
  * print_last_digit - prints the last digit of a number
  * @n: The number to be checked
- * 
+ *
  * Return: The last digit of the number
- * 
+ *
  * Author: Destiny Saturday (DestinedCodes)
  * Date:  17-05-2023
 */
