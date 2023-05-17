@@ -9,7 +9,7 @@ int main(void)
 {
 	int r;
 
-	r = islower('H');
+	r = _islower('H');
 	putchar(r + '0');
 	r = _islower('o');
 	putchar(r + '0');
