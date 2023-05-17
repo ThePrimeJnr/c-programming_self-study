@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * declaration for all functions prototypes and header files
+ * 
+ * Author: Destiny Saturday (DestinedCodes)
+ * Date:  17-05-2023
+*/
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);
