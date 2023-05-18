@@ -17,7 +17,7 @@ void times_table(void)
 	{
 		printf("0");
 
-		for (mul = 1; mul <= 9; mul++)
+			for (mul = 1; mul <= 9; mul++)
 		{
 			prod = num * mul;
 
