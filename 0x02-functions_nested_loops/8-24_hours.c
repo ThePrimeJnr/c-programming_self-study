@@ -18,24 +18,7 @@ void jack_bauer(void)
 	{
 		for (min = 0; min < 60; min++)
 		{
-
-			if (hour < 10)
-			{
-				printf("0%d:", hour%10);
-			}
-			else
-			{
-				printf("%d%d:", hour/10, hour%10);
-			}
-
-			if (min < 10)
-			{
-				printf("0%d\n", min%10);
-			}
-			else
-			{
-				printf("%d%d\n", min/10, min%10);
-			}
+			printf("%02d:%02d\n", hour, min);
 		}
 	}
 }
