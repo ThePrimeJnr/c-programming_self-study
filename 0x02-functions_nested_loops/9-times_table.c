@@ -11,14 +11,25 @@
 
 void times_table(void)
 {
-    int num, i;
+	int num, mul, prod;
 
-    for (num = 0; num <= 9; num++)
-    {
-        for (i = 0; i <= 9; i++)
-        {
-            printf("%d, ", num * i);
-        }
-        printf("\n");
-    }
+	for (num = 0; num <= 9; num++)
+	{
+		printf("0");
+
+		for (mul = 1; mul <= 9; mul++)
+		{
+			prod = num * mul;
+
+			if (prod <= 9)
+			{
+				printf(",  %d", prod);
+			}
+			else
+			{
+				printf(", %d", prod);
+			}
+		}
+		printf("\n");
+	}
 }
