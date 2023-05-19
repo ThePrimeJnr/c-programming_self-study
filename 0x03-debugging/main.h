@@ -5,7 +5,7 @@
  * Declaration for all functions prototypes and header files
  *
  * Author: Destiny Saturday (DestinedCodes)
- * Date:  19-05-2023 
+ * Date:  19-05-2023
 */
 
 #include <stdio.h>
